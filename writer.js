@@ -24,7 +24,7 @@ for (var i=0; i<parseInt(entries); i++){
     debugger;
 
     // store inputs into JSON format
-    let emp1 = {"id":id, "name":name,"salary":email, "time": new Date().toISOString()};
+    let emp1 = {"id":id, "name":name, "email address":email, "time":new Date().toISOString()};
     emp.push(emp1);
     debugger;
 }
