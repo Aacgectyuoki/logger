@@ -27,9 +27,9 @@ for (var i=0; i<parseInt(entries); i++){
     let emp1 = {"id":id, "name":name, "email address":email, "time":new Date().toISOString()};
     emp.push(emp1);
     debugger;
+    
+    // convert array object to string 
+    let jsonData = JSON.stringify(emp);
+    fs.writeFileSync("records.json", jsonData);
+    console.log('Success!');
 }
-
-// convert array object to string 
-let jsonData = JSON.stringify(emp);
-fs.writeFileSync("records.json", jsonData);
-console.log('Success!');
