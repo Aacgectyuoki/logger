@@ -1,6 +1,5 @@
 let fs = require("fs");
 let obj = require("readline-sync");
-
 // ask user for inputs
 let id = obj.question("Enter your ID #: ");
 console.log("ID: "+id);
